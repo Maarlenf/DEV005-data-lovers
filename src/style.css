@@ -1,0 +1,107 @@
+html{
+    background-color: black;
+    background-image: url("https://i.postimg.cc/26xXCd22/intento2.png");
+    background-position: center bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.titulo img{
+      height: 200px;
+      width: 600px;
+      margin:auto;
+      display: block;
+      position: center;
+}
+@media (max-width: 750px) {
+    img{
+        max-width: 100%;
+    }
+    html{
+        background-image:("https://i.postimg.cc/PqfQHGvv/Sin-t-tulo-Fondo-de-pantalla-para-tel-fono-3.png");
+        background-attachment: fixed;
+        max-width: 100%;
+
+    }
+}
+.flex-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+      
+}
+
+.flex-item, .flex-item1, .flex-item2, .flex-item3 {
+    padding: 5px;
+    flex: 50%;
+  }
+ 
+  @media (max-width:600px) {
+    .flex-container {
+        flex-direction: column;
+      }
+}
+
+.buscador{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+}
+#ordenAlfabetico, #especies, #estadisticas, #inicio{
+    font-family: Gill sans MT;
+    font-size: 20px;
+    border-color: rgb(3, 168, 168);
+    border-radius: 5px;
+    padding: auto;
+    box-shadow: 0 8px 16px 0 rgb(164, 252, 1), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+p{
+    color:white;
+    font-family: Gill sans MT;
+    font-size: 20px;
+}
+#texto{
+    margin-left: 10%;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 8px 16px 0 rgb(164, 252, 1), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+option{
+    background-color: aqua;
+}
+
+#root{
+      display: flex;
+      justify-content: center;
+      padding: 15px 25px;
+      flex-wrap: wrap;
+      gap: 6%;
+      z-index: 1;
+}
+
+.contenedor-data{
+    text-align: center;
+    color:black;
+    font-size: 25px;
+    font-family:Gill sans MT;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgb(1, 214, 252), 0 6px 20px 0 rgba(0,0,0,0.19); 
+}
+
+.imagenPersonaje{
+    border-radius: 10px;
+}
+
+#myChart{
+    margin-left: 35%;
+}
+
+@media (max-width:600px) {
+    #myChart {
+        margin-left: 25%;
+      }
+}
