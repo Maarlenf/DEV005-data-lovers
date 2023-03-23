@@ -1,7 +1,7 @@
 import { personajesPrincipales, ordenAlfabetico,ordenadoAlreves, filtrarEspecies, filtrarGenero, calcular, convertir,cortar, traerBuscado } from './data.js';
 // import data from './data/lol/lol.js';
 //import data from './data/pokemon/pokemon.js';
-import data from './data/rickandmorty/rickandmorty.js';
+import data from './src/data/rickandmorty/rickandmorty.js';
 
 //se trae data completa
 const dataTotal= data.results;
