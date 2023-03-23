@@ -39,12 +39,17 @@ y ver los personajes prncipales como primera pantalla.
  - La quinta HU que identificamos según usuario y que nos ayudaba a profundizar un
  poco mas en los objetivos de aprendizaje, fue poner un buscador en tiempo real,
  según los nombres de los personajes.
+- La sexta HU que indetificamos según usuario, es poder volver a los personajes 
+principales cuando se este en cualquier parte de la interfaz.
 
  Al hacer estar historias, resolvemos las necesidades del usuario, el cual ya esta
  familiarizado con la serie, y pueda buscar en la interfaz, las HU mencionadas 
  anteriormente, para poder platicar sobre los personajes con la ayuda de la interfaz.
  Tambien salir de dudas respecto a sus especies, origenes, ya que al ser una serie
  de adultos, suelen confundirse ciertos aspectos como estos.
+
+ Para mas seguimiento de las HU y la planificación del proyecto adjunto url
+ (https://trello.com/b/vLzYpagC/datalovers-dupla).
 
 ## 3. Objetivos de aprendizaje
 
@@ -65,37 +70,4 @@ de nuestro proyecto en otra plataforma como la de los móviles.
 
 
 
-### Historias de usuario
 
-Asegúrate de incluir la definición de terminado (_definition of done_) y los
-Criterios de Aceptación para cada una.
-
-En la medida de lo posible, termina una historia de usuario antes de pasar
-a la siguiente (Cumple con Definición de Terminado + Criterios de Aceptación).
-
-### Diseño de la Interfaz de Usuario
-
-
-Antes de empezar a escribir código, debes definir qué deberá hacer el producto
-en base al conocimiento que puedas obtener de tu usuario. Estas preguntas te
-pueden ayudar:
-
-* ¿Quiénes son los principales usuarios de producto?
-* ¿Cuáles son los objetivos de estos usuarios en relación con el producto?
-* ¿Cuáles son los datos más relevantes que quieren ver en la interfaz y por qué?
-* ¿Cuándo utilizan o utilizarían el producto?
-* Toda tu investigación previa debe tener como resultado todas las Historias
-  de Usuario de tu proyecto.
-* No hagas los prototipos de alta fidelidad de todas tus Historias. Comienza
-  solamente por los que se necesiten para tu Sprint 1 (semana 1 de trabajo). Más
-  pistas en la guía de organización para el proyecto.
-
-Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
-
-
-* [ ] Incluye link a Zeplin en `README.md`.
-
-* [ ] UI: Muestra lista y/o tabla con datos y/o indicadores.
-* [ ] UI: Permite ordenar data por uno o más campos (asc y desc).
-* [ ] UI: Permite filtrar data en base a una condición.
-* [ ] UI: Es _responsive_.
