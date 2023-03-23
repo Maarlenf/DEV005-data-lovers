@@ -12,6 +12,8 @@ de quien pudiese ayudarnos a hacer las historias de usuario, en este caso elegim
 Rick and Morty, ya que podíamos tener HU reales, de partida comenzamos con el prototipo
 de baja fidelidad, y luego continuamos con el prototipo, de alta fidelidad, el cual con
 el tiempo fuimos acomodando según HU.
+(prototipo-baja-fidelidad.png)
+(prototipo-alta-fidelidad.png)
 
 ## 2. Resumen del proyecto
 
